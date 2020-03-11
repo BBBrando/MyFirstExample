@@ -9,6 +9,7 @@ int main()
 
     cout<<"Hi, please enter two numbers: ";
     cin>>x>>y;
+  x/0;
 
     return 0;
 }

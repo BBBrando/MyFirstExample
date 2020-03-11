@@ -1,4 +1,6 @@
 language: cpp
 os: inux
 script:
+    pip install cpplint
+    cpplint main.cpp
     - make
